@@ -65,6 +65,7 @@ button{
     font-size: 12px;
     padding: 0 7px;
     border: none;
+    cursor: pointer;
 }
 
  .bodyB{
@@ -77,8 +78,10 @@ button{
     background-color: red;
     color: white;
     padding: 0rem 0.5rem ;
+    cursor: pointer;
 }
 
 .ri-add-box-fill{
     font-size: 35px;
+    cursor: pointer;
 }
