@@ -1,1 +1,72 @@
-passs
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: chocolate;
+}
+
+h4{
+    font-weight: 100;
+}
+
+.body2{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    line-height: 2;
+    width: 25%;
+    margin: 5rem auto 0;
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* gap: 20px; */
+    background-color: #fff;
+}
+
+.todo-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ input{
+    padding: 5px;
+    width: 100%;
+    box-shadow: grey;
+    margin-right: 15px;
+    /* border: solid #000 1px; */
+}
+
+.bodyA, .bodyB, .bodyC, .bodyD{
+    background-color: beige;
+    margin: 10px 0;
+    padding: 3px;
+}
+
+.bodyB, .bodyE{
+    display: flex;
+    justify-content:space-between ;
+    gap: 30px;
+}
+
+button{
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 10px;
+    padding: 0 10px;
+    border: none;
+}
+
+ .bodyB{
+    display: flex;
+    padding: 5px;
+}
+ 
+ri-delete-bin-7-fill{
+    
+}
