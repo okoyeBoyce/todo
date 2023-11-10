@@ -21,6 +21,7 @@ h4{
     flex-direction: column;
     display: flex;
     justify-content: space-between;
+    border-radius: 5px;
     padding: 15px;
     line-height: 2;
     width: 35%;
@@ -95,6 +96,99 @@ button{
 }
 
 .todoContainer{
-
     background-color: red;
+}
+
+@media screen and (max-width:992px) {
+    .body2{
+        width: 35%;
+    } 
+
+    .ri-add-box-fill{
+        font-size: 40px;
+    }
+
+    .bodyB, .bodyE{
+        gap: 2px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .body2{
+        width: 40%;
+        margin: 8rem auto 0;
+    }
+
+    h4{
+        font-size: 13px;
+    }
+
+    button{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:578px) {
+    .body2{
+        width: 50%;
+        padding: 5px;
+    } 
+
+    h3{
+        font-size: 1.20em;
+    }
+
+    .bodyB, .bodyE{
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .body2{
+        width: 60%;
+    }
+
+    input{
+        font-size: 13px;
+    }
+
+    .ri-add-box-fill{
+        font-size: 35px;
+    }
+
+    h4{
+        font-size: 12px;
+    }  
+    .ri-delete-bin-7-fill{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .body2{
+        width: 70%;
+    } 
+
+    input{
+        font-size:12px ;
+    }
+
+
+.ri-add-box-fill{
+    font-size: 36px;
+}
+
+
+
+button{
+    padding: 0.3;
+    font-size: 9px;
+}
+
+h4{
+    font-size: 10px;
+}
+
 }
