@@ -95,9 +95,6 @@ button{
     cursor: pointer;
 }
 
-.todoContainer{
-    background-color: red;
-}
 
 @media screen and (max-width:992px) {
     .body2{
